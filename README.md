@@ -1,6 +1,9 @@
 # Layer-reconstruction
 
-The code for the Physical review E paper:
+The code for the Physical review E paper: Layer reconstruction and missing link prediction of a multilayer network with maximum a posteriori estimation
+
+
+Citation:
 
 @article{PhysRevE.104.024301,
   title = {Layer reconstruction and missing link prediction of a multilayer network with maximum a posteriori estimation},
