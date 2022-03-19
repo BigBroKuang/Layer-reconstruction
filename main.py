@@ -68,7 +68,7 @@ def post_process(true_net,source,target,node_list,lay):
     
     
 def main(args):
-    mp= MP.postpred(K=args.dimensions,)
+    mp= MP.postpred(K=args.dimensions)
     mp.readgraph(adj=args.beta,alphafile=args.alpha,lay=args.predict_layer,nprior=args.sim_layers)
     mp.realization()
     post_process(true_net=args.true_network,source=mp.s,target=mp.t,node_list=mp.nl,lay=args.predict_layer)
